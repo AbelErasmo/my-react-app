@@ -1,0 +1,39 @@
+#main {
+    font-weight: 150;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 35%;
+    margin: auto;
+}
+
+input[type=text]:focus {
+    font-size: 18px;
+    background-color: lightblue;
+}
+
+input[type=email]:focus {
+    font-size: 18px;
+    background-color: lightblue;
+}
+
+input[type=password]:focus {
+    font-size: 18px;
+    background-color: rgb(250, 132, 117);
+}
+
+.butao {
+    background-color: #04AA6D;
+    border: none;
+    justify-content: center;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    cursor: pointer;
+};

@@ -1,0 +1,13 @@
+.main {
+    font-weight: 150;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 30%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #04AA6D;
+    margin-bottom: 20px;
+}

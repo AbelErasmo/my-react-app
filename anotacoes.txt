@@ -1,0 +1,21 @@
+1. Criar uma pagina para que possa adicionar nas noticias:
+    - id                    (A ser criado na base de dados automaticamente)
+    - Titulo da noticia
+    - Imagem
+    - Subtitulo
+    - Conteudo da noticia
+    - Autor da noticia      (O autor devera aparecer no final da noticia, quando for exibida na pagina)
+    - Data da criacao       (A ser criado na base de dados automaticamente)
+
+    1.1. As noticias devem ser adicionadas de acordo com a categoria
+    - Programacao
+    - Robotica
+    - Inteligencia Artificial
+    - Cyber Security
+    - Redes de Computadores
+    - Marketing
+
+2. Criar uma pagina de contacto que possua opcoes de visualizar o portfolio, cv e 
+   mandar mensagem via email
+
+3. 

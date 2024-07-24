@@ -1,0 +1,53 @@
+Introducao do Git e Github
+
+Git é um sistema de controle de versão. 
+Foi criado pelo Linus Torvalds em 2005, desde então tem sido mantido por Junio Hamano
+Ajuda acompanhar as alterações de código.
+ 
+É usado para:
+- Alterações de acompanhamento de código
+- Rastrear quem fez alterações
+- Colaboração de codificação
+
+O que faz o git?
+- Gerencia projectos com repositórios
+- Clonar um projectoo para trabalhar em uma cópia local
+- Ramificação e mesclagem para permitir o trabalho em diferentes partes e versões 
+    de um projecto
+- Efectuar pull da versão mais recente do projecto para uma cópia local
+- Enviar actualizações locais para o projecto principal
+
+Verificando versão: git --version (No windows)
+
+O que é Github?
+- Git não é mesmo que Github
+- O Github cria ferramentas que usam o git
+
+Começando com o git
+
+Configuração do Git:
+- git config --global user.name "erasmoabel"
+- git config --global user.email "erasmosibinde@gmail.com"
+
+Criando um directorio: mkdir myproject
+                       cd myproject
+
+Inicializando o Git: git init
+
+Verificando se o git faz parte do projecto: git status
+Nota: Apos verificar o status o Git esta ciente dos arquivos mas nao os adicona no nosso 
+    repositório
+
+Adicionando dos arquivos
+Os aruivos na pasta do repositório podem estar em um dos dois estados
+
+- Rastreados: Arquivos que o Git conhece e sao adicionados ao repositório
+- Nao Rastreados: Arquivos que estão em seu directório d trabalho, mas não adicionados
+    no directorio repositório.
+
+Nota: Quando adiciona arquivos a um repositório vazio pela primeira vez, todos eles 
+    são não Rastreado.
+    Para que o Git os rastreie, precisa prepará-los ou adicioná-los ao ambiente 
+    de preparo
+
+
